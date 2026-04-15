@@ -82,13 +82,14 @@ Special thanks to **Striver** for creating this amazing sheet and helping thousa
 
 ## 🤝 Contributing
 
-This is a personal learning repository, but suggestions are always welcome!
+@defaulter7275 and @Ayushh020 are open to contributions! Feel free to fork the repository and submit pull requests with improvements or additional solutions.
 
 ---
 
 ## 📬 Connect with Me
 
 * GitHub: https://github.com/defaulter7275
+* Linkedin: https://www.linkedin.com/in/satyam-gupta-582831290/
 
 ---
 
