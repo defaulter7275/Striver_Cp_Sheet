@@ -19,19 +19,13 @@ const int MOD = 1e9 + 7;
 const ll INF = 1e18;
 
 void solve() {
-    int matrixValue;
-    int rowPos, colPos;
-    for (int i = 1; i <= 5; ++i) {
-        for (int j = 1; j <= 5; ++j) {
-            cin >> matrixValue;
-            if (matrixValue == 1) {
-                rowPos = i;
-                colPos = j;
-            }
-        }
-    }
-    int moves = abs(rowPos - 3) + abs(colPos - 3);
-    cout << moves << endl;
+    int n, k, l, c, d, p, nl, np;
+    cin >> n >> k >> l >> c >> d >> p >> nl >> np;
+    int totalDrink = (k * l) / nl;
+    int totalLimes = c * d;
+    int totalSalt = p / np;
+    int totalToasts = min({totalDrink, totalLimes, totalSalt});
+    cout << totalToasts / n << endl;
 }
 
 int main() {
